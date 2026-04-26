@@ -1,0 +1,16 @@
+{
+  "inits": [
+    {
+      "A_init": "s4d_real",
+      "final_val_acc": 0.96325
+    },
+    {
+      "A_init": "s4d_complex",
+      "final_val_acc": 0.95875
+    },
+    {
+      "A_init": "random",
+      "final_val_acc": 0.97825
+    }
+  ]
+}
