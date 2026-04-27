@@ -7,10 +7,10 @@ This repository contains a Jupyter Notebook implementation and evaluation of neu
 ## Contents
 
 - `2055734_2062203_Projet.ipynb` — main notebook containing the implementation, training, experiments, and analysis.
-- `results/` — saved experiment results in `.json`, `.pkl`, and `.csv` formats.
-- `figures/` — generated plots used for the report.
-- `mamba_main.pt` — saved trained Mamba model checkpoint.
-- `Mamba1.pdf`, `Mamba2.pdf`, `Mamba3.pdf` — reference documents used for the Mamba section.
+- `1_Documentation/` — reference documents used for the Mamba section.
+- `2_Output/results/` — saved experiment results in `.json`, `.pkl`, and `.csv` formats.
+- `2_Output/figures/` — generated plots used for the report.
+- `2_Output/mamba_main.pt` — saved trained Mamba model checkpoint.
 
 ## Models and Experiments
 
