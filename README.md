@@ -1,2 +1,38 @@
-# INF8225_Projet
-Le projet final pour le cours INF8225 : I.A. : techniques probabilistes et d'apprentissage
+# INF8225 Project
+
+Final project for **INF8225 — I.A.: techniques probabilistes et d'apprentissage**.
+
+This repository contains a Jupyter Notebook implementation and evaluation of neural sequence models for **English-to-French machine translation**, with an a focuse on **Mamba-style sequence models**.
+
+## Contents
+
+- `2055734_2062203_Projet.ipynb` — main notebook containing the implementation, training, experiments, and analysis.
+- `results/` — saved experiment results in `.json`, `.pkl`, and `.csv` formats.
+- `figures/` — generated plots used for the report.
+- `mamba_main.pt` — saved trained Mamba model checkpoint.
+- `Mamba1.pdf`, `Mamba2.pdf`, `Mamba3.pdf` — reference documents used for the Mamba section.
+
+## Models and Experiments
+
+The notebook includes:
+
+- RNN, GRU, and Transformer models for translation.
+- Greedy search and beam search decoding.
+- BLEU score evaluation.
+- Mamba model implementation for translation.
+- Synthetic tasks such as selective copying and induction heads.
+- Ablation studies and hyperparameter sweeps.
+- Efficiency benchmarking with respect to sequence length.
+
+## Environment
+
+The experiments were run locally in **Jupyter Notebook** on a personal computer equipped with an **NVIDIA GeForce RTX 3060 GPU**.  
+
+## Setup
+
+Install the main dependencies:
+
+```bash
+pip install torch numpy pandas matplotlib scikit-learn spacy sacrebleu torchinfo einops wandb
+python -m spacy download en_core_web_sm
+python -m spacy download fr_core_news_sm
