@@ -1,0 +1,12 @@
+Expérience,Métrique clé,Valeur,Paramètres
+E1 - Traduction EN→FR,BLEU,37.79,"9,201,166"
+E3 - Selective Copying,Val accuracy,0.9670,-
+E4 - Induction Heads (train),Val accuracy,1.0000,train_len=128
+E4 - Induction Heads (L=2048),Val accuracy,0.8600,-
+E5 - Full Mamba,Val accuracy,0.9645,vs 0.2535 sans sélection
+E6 - Best d_state,Val accuracy,0.9607,N=4
+E7 - Best A init,Val accuracy,0.9782,random
+E11 - Mamba scaling,Time ratio L=8192/L=128,57.9x,for L x 64
+E8 - Best n_layers,BLEU,30.16,n_layers=4
+E9 - Best expand,BLEU,32.37,expand=4
+E10 - Best dropout,BLEU,28.59,dropout=0.1

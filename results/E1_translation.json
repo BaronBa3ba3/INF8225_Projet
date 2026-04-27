@@ -1,0 +1,8 @@
+{
+  "model_name": "Mamba",
+  "dim_embedding": 256,
+  "n_layers": 4,
+  "d_state": 16,
+  "bleu": 37.786367758032604,
+  "total_params": 9201166
+}

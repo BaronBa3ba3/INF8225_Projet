@@ -1,3 +1,10 @@
+./wandb/
+_about.txt
+fra-eng.zip
+fra-eng.zip.1
+fra.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

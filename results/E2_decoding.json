@@ -1,0 +1,55 @@
+{
+  "sentences": [
+    "I love you.",
+    "What time is it?",
+    "She is a student.",
+    "The weather is nice today.",
+    "Can you help me?"
+  ],
+  "greedy": [
+    [
+      [
+        "<unk> <unk> <unk> <unk>",
+        0.4454424977302551
+      ]
+    ],
+    [
+      [
+        "<unk> <unk> <unk> <unk> <unk> <unk>",
+        0.19500821828842163
+      ]
+    ],
+    [
+      [
+        "<unk> <unk> <unk> <unk>",
+        0.34304171800613403
+      ]
+    ],
+    [
+      [
+        "<unk> <unk> <unk> <unk> <unk> <unk> <unk>",
+        0.1766943335533142
+      ]
+    ],
+    [
+      [
+        "<unk> <unk> <unk> <unk> <unk> <unk>",
+        0.6397386193275452
+      ]
+    ]
+  ],
+  "beam": [
+    "Je vous adore.",
+    "\u00c0 quelle heure est-ce ?",
+    "Elle est \u00e9tudiante.",
+    "Aujourd'hui, c'est beau aujourd'hui.",
+    "Peux-tu m'aider ?"
+  ],
+  "beam_prob": [
+    0.42201554775238037,
+    0.18512241542339325,
+    0.3249993622303009,
+    0.1679050475358963,
+    0.6073060631752014
+  ]
+}
