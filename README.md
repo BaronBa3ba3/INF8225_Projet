@@ -26,7 +26,7 @@ The notebook includes:
 
 ## Environment
 
-The experiments were run locally in **Jupyter Notebook** on a personal computer equipped with an **NVIDIA GeForce RTX 3060 GPU**.  
+The experiments were run locally in **Jupyter Notebook** on a personal computer equipped with an **NVIDIA GeForce RTX 3060 GPU**. Note that, du to some interuptions, the code was run in segments. Thus, the Jupyter Notebook blocks do not necesserly contain the final ouput. Instead the ouput is saved in the `results/` folder.
 
 ## Setup
 
